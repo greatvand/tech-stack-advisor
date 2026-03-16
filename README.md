@@ -55,8 +55,9 @@ cd tech-stack-advisor
 
 2. **Install dependencies**
 
-(Optional: Use a virtual environment)
+(Make sure you have Python >= 3.11 installed on your system)
 ```bash
+python --version
 uv venv
 source .venv/bin/activate
 ```
