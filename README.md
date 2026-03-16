@@ -60,7 +60,7 @@ uv venv
 source .venv/bin/activate
 
 ```bash
-pip install -r requirements.txt
+uv install -r requirements.txt
 ```
 
 3. **Train the model**
