@@ -48,6 +48,8 @@ tech-stack-advisor/
 
 1. **Fork an clone the repository**
 
+(Use a bash shell, not powershell or cmd)
+
 ```bash
 git clone https://github.com/<your-username>/tech-stack-advisor.git
 cd tech-stack-advisor
