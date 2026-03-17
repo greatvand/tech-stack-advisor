@@ -103,7 +103,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN uv pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
@@ -178,12 +178,6 @@ docker push <your-dockerhub-username>/tech-stack-advisor:latest
 
 This project is licensed under the **Apache License 2.0**.
 See the [LICENSE](./LICENSE) file for details.
-
----
-
-## 🙌 Credits
-
-Created by \[Gourav Shah](https://www.linkedin.com/in/gouravshah) as part of the **AI/ML with Docker** course at **School of DevOps**.
 
 ---
 
